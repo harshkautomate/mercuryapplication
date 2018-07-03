@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Locators initialized]]>
+    </line>
+    <line>
+      <![CDATA[Locators set]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Browser type on which present tests are executed-->firefox]]>
+    </line>
+    <line>
+      <![CDATA[INFO : URL->http://newtours.demoaut.com]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Reading message confirmUserNameInRegistrationMsg = Note: Your user name is %s.]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected message are same for the User Registration. Actual { Note: Your user name is mercuryusertest3. } | Expected { Note: Your user name is mercuryusertest3. }]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified sign-in link is present in the Registration Confirmation window.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Results are written to file.]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Results are written to file.]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/MercuryTours_RegisterUserscreenshot3771434280228570151.png]]>
+    </line>
+    <line>
+      <![CDATA[LOG : Reading message ticketConfirmationMessage = Your itinerary has been booked!]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Actual and Expected message are same for the Ticket Confirmation. Actual { Your itinerary has been booked! } | Expected { Your itinerary has been booked! }]]>
+    </line>
+    <line>
+      <![CDATA[INFO : Flight Ticket Number is:  Flight Confirmation # 2018-07-03011328]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Source to Destination for onward ticket is same in Summary Page and Confirmation Page: Acapulco to Acapulco]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Flight Name for onward ticket is same in Summary Page and Confirmation Page: Blue Skies Airlines 360]]>
+    </line>
+    <line>
+      <![CDATA[PASS : Verified Total Cost is same in Summary Page and Confirmation Page: $584 USD]]>
+    </line>
+    <line>
+      <![CDATA[SS +./screenshots/MercuryTours_VerifyTicketBookingscreenshot4382880799407540598.png]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59490" started-at="2018-07-03T08:12:31Z" finished-at="2018-07-03T08:13:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59490" started-at="2018-07-03T08:12:31Z" finished-at="2018-07-03T08:13:31Z">
+      <class name="mercuryUI.MercuryUITest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="beforeTest" is-config="true" duration-ms="22" started-at="2018-07-03T13:42:31Z" finished-at="2018-07-03T13:42:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://newtours.demoaut.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[INFO : Browser type on which present tests are executed-->firefox]]>
+            </line>
+            <line>
+              <![CDATA[INFO : URL->http://newtours.demoaut.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="beforeMethod" is-config="true" duration-ms="9268" started-at="2018-07-03T13:42:31Z" finished-at="2018-07-03T13:42:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MercuryTours_RegisterUser(java.lang.String)[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="MercuryTours_RegisterUser" duration-ms="23667" started-at="2018-07-03T13:42:41Z" data-provider="registerUser" finished-at="2018-07-03T13:43:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mercury-Tests-12345-mercuryuser@abc.com-street1, bangalore-Bangalore-Karnataka-560076-INDIA-mercuryusertest3-mercuryusertest3-mercuryusertest3-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : Reading message confirmUserNameInRegistrationMsg = Note: Your user name is %s.]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected message are same for the User Registration. Actual { Note: Your user name is mercuryusertest3. } | Expected { Note: Your user name is mercuryusertest3. }]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified sign-in link is present in the Registration Confirmation window.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Results are written to file.]]>
+            </line>
+            <line>
+              <![CDATA[LOG : Results are written to file.]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/MercuryTours_RegisterUserscreenshot3771434280228570151.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MercuryTours_RegisterUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="afterMethod" is-config="true" duration-ms="600" started-at="2018-07-03T13:43:04Z" finished-at="2018-07-03T13:43:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="beforeMethod" is-config="true" duration-ms="7727" started-at="2018-07-03T13:43:05Z" finished-at="2018-07-03T13:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="MercuryTours_VerifyTicketBooking(java.lang.String)[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="MercuryTours_VerifyTicketBooking" duration-ms="17538" started-at="2018-07-03T13:43:13Z" data-provider="bookUserTicket" depends-on-methods="mercuryUI.MercuryUITest.MercuryTours_RegisterUser" finished-at="2018-07-03T13:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Way-1-Acapulco-Jul-03-Acapulco-Jul-03-Economy class-No Preference-]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[LOG : Reading message ticketConfirmationMessage = Your itinerary has been booked!]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Actual and Expected message are same for the Ticket Confirmation. Actual { Your itinerary has been booked! } | Expected { Your itinerary has been booked! }]]>
+            </line>
+            <line>
+              <![CDATA[INFO : Flight Ticket Number is:  Flight Confirmation # 2018-07-03011328]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Source to Destination for onward ticket is same in Summary Page and Confirmation Page: Acapulco to Acapulco]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Flight Name for onward ticket is same in Summary Page and Confirmation Page: Blue Skies Airlines 360]]>
+            </line>
+            <line>
+              <![CDATA[PASS : Verified Total Cost is same in Summary Page and Confirmation Page: $584 USD]]>
+            </line>
+            <line>
+              <![CDATA[SS +./screenshots/MercuryTours_VerifyTicketBookingscreenshot4382880799407540598.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MercuryTours_VerifyTicketBooking -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="afterMethod" is-config="true" duration-ms="194" started-at="2018-07-03T13:43:30Z" finished-at="2018-07-03T13:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mercuryUI.MercuryUITest@462d5aee]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-03T13:43:31Z" finished-at="2018-07-03T13:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- mercuryUI.MercuryUITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

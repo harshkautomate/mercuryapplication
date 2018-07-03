@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<!-- UI Locators-->
+<entry key="registerationpage">//font[contains(text(),'Please fill')]</entry>
+<entry key="registration.firstname">//input[@name='firstName']</entry>
+<entry key="registration.lastname">//input[@name='lastName']</entry>
+<entry key="registration.phone">//input[@name='phone']</entry>
+<entry key="registration.email">//input[@name='userName']</entry>
+<entry key="registration.address">//input[@name='address1']</entry>
+<entry key="registration.city">//input[@name='city']</entry>
+<entry key="registration.state">//input[@name='state']</entry>
+<entry key="registration.postalcode">//input[@name='postalCode']</entry>
+<entry key="registration.country">//select[@name="country"]</entry>
+<entry key="registration.username">//input[@name='email']</entry>
+<entry key="registration.password">(//input[@type='password'])[1]</entry>
+<entry key="registration.confirmpassword">//input[@name='confirmPassword']</entry>
+<entry key="registration.submitbutton">//input[@name='register']</entry>
+<entry key="registration.confirmmessage">//font[contains(text(),'Thank you for registering.')]</entry>
+<entry key="registration.signinlinkconfirmmsg">//a[contains(text(),'sign-in')]</entry>
+<entry key="registration.confirmusername">//b[contains(text(),'Note: Your user name is')]</entry>
+
+<entry key="homepage.username">//input[@name='userName']</entry>
+<entry key="homepage.password">//input[@name='password']</entry>
+<entry key="homepage.signin">//input[@name='login']</entry>
+<entry key="homepage.waitforflightdetailspage">//font[contains(text(),'Details')]</entry>
+
+<entry key="flightfinder.continue">//input[@name='findFlights']</entry>
+<entry key="reserveflights.continue">//input[@name='reserveFlights']</entry>
+<entry key="summary.securepurchase">//input[@name='buyFlights']</entry>
+<entry key="summary.totalcost">//tr[9]//td[2]//b</entry>
+<entry key="summary.sourcetodestination">(//form[@name='bookflight']//table)[2]//tr[1]//td[1]//font</entry>
+<entry key="summary.getflightname">(//form[@name='bookflight']//table)[2]//tr[3]//td[1]//b</entry>
+
+
+<entry key="flightconfirmation.confirmmsg">//font[contains(text(), 'itinerary has been booked!')]</entry>
+<entry key="flightconfirmation.ticketnumber">//font[contains(text(),'Flight')]</entry>
+<entry key="flightconfirmation.totalprice">((//td[contains(@class,'data_left')])[3]//tr[2]//td[2]//font)[4]</entry>
+<entry key="flightconfirmation.gettimestamp">(//td[@class='frame_header_info'])[1]//td[2]//b</entry>
+<entry key="flightconfirmation.getsourcedest">(//td[@class='frame_header_info'])[3]//b[1]</entry>
+<entry key="flightconfirmation.getflightname">(//td[@class='frame_header_info'])[3]//font</entry>
+
+</properties>
